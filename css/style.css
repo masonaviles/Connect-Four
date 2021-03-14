@@ -46,6 +46,10 @@ body {
     font-size: 25px;
 }
 
+.instruction-text {
+    margin-bottom: 3rem;
+}
+
 /* BOARD AND PIECES */
 #game-board {
 	position: relative;
@@ -73,7 +77,7 @@ body {
 #play-area {
     margin: 0 auto;
     width: 750px;
-    margin-top: 100px;
+    margin-top: 50px;
 	opacity: 0;
 }
 
