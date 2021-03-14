@@ -70,7 +70,10 @@ class Game {
 
         if (targetSpace !== null) {
             game.ready = false;
-    		activeToken.drop(targetSpace);   
+    		activeToken.drop(targetSpace, function () {
+                //callback function
+                game.updateGameState(activeToken, targetSpace);
+            })
         }              
     }
 
